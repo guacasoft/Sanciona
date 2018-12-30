@@ -1,0 +1,15 @@
+
+<form id="56870556">
+<property name="name" value="comboboxarea.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="areas_nombrearea" type="SelectBox" id="519561870">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;nombrearea (areas)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="areas/nombrearea"/>
+<property name="outputBinding" value="areas/nombrearea"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="areas" name="#E9E371" type="dataModelerEntry" outId="areas" value="org.ami.sancionatorios.Area" id="areas"/>
+</form>

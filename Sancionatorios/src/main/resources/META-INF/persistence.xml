@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" xmlns:orm="http://java.sun.com/xml/ns/persistence/orm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd http://java.sun.com/xml/ns/persistence/orm http://java.sun.com/xml/ns/persistence/orm_2_0.xsd">
+<persistence-unit name="org.ami:Sancionatorios:1.0" transaction-type="JTA">
+<provider>org.hibernate.ejb.HibernatePersistence</provider>
+<jta-data-source>java:/jboss/datasources/sancionatorioDS</jta-data-source>
+<class>org.ami.sancionatorios.Estrato</class>
+<class>org.ami.sancionatorios.Area</class>
+<class>org.ami.sancionatorios.TipoQueja</class>
+<class>org.ami.sancionatorios.AmbitoQueja</class>
+<class>org.ami.sancionatorios.Localidad</class>
+<class>org.ami.sancionatorios.Norma</class>
+<class>org.ami.sancionatorios.TipoInicioActuacion</class>
+<class>org.ami.sancionatorios.TipoVisita</class>
+<class>org.ami.sancionatorios.TipoDeficiencia</class>
+<class>org.ami.sancionatorios.fasetecnica</class>
+<class>org.ami.sancionatorios.investigado</class>
+<class>org.ami.sancionatorios.Quejoso</class>
+<class>org.ami.sancionatorios.Funcionario</class>
+<class>org.ami.sancionatorios.FaseTecnica</class>
+<class>org.ami.sancionatorios.Hecho</class>
+<exclude-unlisted-classes>true</exclude-unlisted-classes>
+<properties>
+<property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect"/>
+<property name="hibernate.max_fetch_depth" value="3"/>
+<property name="hibernate.hbm2ddl.auto" value="update"/>
+<property name="hibernate.show_sql" value="false"/>
+<property name="hibernate.id.new_generator_mappings" value="false"/>
+<property name="hibernate.transaction.jta.platform" value="org.hibernate.service.jta.platform.internal.JBossAppServerJtaPlatform"/>
+<property name="hibernate.default_schema" value="investigaciones"/>
+</properties>
+</persistence-unit>
+</persistence>

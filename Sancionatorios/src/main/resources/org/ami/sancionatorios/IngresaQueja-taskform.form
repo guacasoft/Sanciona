@@ -1,0 +1,95 @@
+
+<form id="1017085153">
+<property name="name" value="IngresaQueja-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="expediente_consecutivo" type="InputTextLong" id="827824825">
+<property name="fieldRequired" value="true"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;consecutivo (expediente)quot;quot;esquot;,quot;Consecutivo SIDIVICquot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="expendiente/consecutivo"/>
+<property name="outputBinding" value="expediente/consecutivo"/>
+<property name="fieldClass" value="java.lang.Long"/>
+</field>
+<field position="1" name="expediente_numeroexpediente" type="InputTextLong" id="2119933560">
+<property name="fieldRequired" value="true"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;numeroexpediente (expediente)quot;quot;esquot;,quot;Numero Expediente SIDIVICquot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;Estratoquot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="expendiente/numeroexpediente"/>
+<property name="outputBinding" value="expediente/numeroexpediente"/>
+<property name="fieldClass" value="java.lang.Long"/>
+</field>
+<field position="2" name="expediente_proyectovivienda" type="InputText" id="2001064931">
+<property name="fieldRequired" value="true"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;proyectovivienda (expediente)quot;quot;esquot;,quot;Nombre Proyecto de Viviendaquot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="expendiente/proyectovivienda"/>
+<property name="outputBinding" value="expediente/proyectovivienda"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="expediente_direccionproyectovivienda" type="InputText" id="918104444">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;direccionproyectovivienda (expediente)quot;quot;esquot;,quot;Direcciónquot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="expendiente/direccionproyectovivienda"/>
+<property name="outputBinding" value="expediente/direccionproyectovivienda"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="expediente_idestrato" type="InputTextLong" id="1829306148">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;idestrato (expediente)quot;quot;esquot;,quot;Estratoquot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="expendiente/idestrato"/>
+<property name="outputBinding" value="expediente/idestrato"/>
+<property name="fieldClass" value="java.lang.Long"/>
+</field>
+<field position="5" name="expediente_fecharadicacion" type="InputDate" id="373771973">
+<property name="fieldRequired" value="true"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;fecharadicacion (expediente)quot;quot;esquot;,quot;Fecha Radicación Expedientequot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="expendiente/fecharadicacion"/>
+<property name="outputBinding" value="expediente/fecharadicacion"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="6" name="expediente_fecharadinicioactuacioninv" type="InputDate" id="566022978">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;fecharadinicioactuacioninv (expediente)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="expendiente/fecharadinicioactuacioninv"/>
+<property name="outputBinding" value="expediente/fecharadinicioactuacioninv"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="7" name="expediente_fecharadinicioactuacionque" type="InputDate" id="1831321082">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;fecharadinicioactuacionque (expediente)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="expendiente/fecharadinicioactuacionque"/>
+<property name="outputBinding" value="expediente/fecharadinicioactuacionque"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<dataHolder inputId="expendiente" name="#E9E371" type="dataModelerEntry" outId="expediente" value="org.ami.sancionatorios.Expediente" id="expediente"/>
+</form>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.ami</groupId>
+  <artifactId>Sancionatorios</artifactId>
+  <version>1.8.23</version>
+  <packaging>kjar</packaging>
+  <name>Sancionatorios</name>
+  <dependencies>
+    <dependency>
+      <groupId>org.postgresql</groupId>
+      <artifactId>postgresql</artifactId>
+      <version>9.4.1212</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.fxapps.jbpm</groupId>
+      <artifactId>jpa-wih</artifactId>
+      <version>1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>co.gov.habitat</groupId>
+      <artifactId>DBDataProvider</artifactId>
+      <version>0.0.1-SNAPSHOT</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+  <repositories>
+    <repository>
+      <id>guvnor-m2-repo</id>
+      <name>Guvnor M2 Repo</name>
+      <url>file:///opt/wildfly/repositories</url>
+    </repository>
+    <repository>
+      <id>localrepositriy</id>
+      <name>Guvnor M2 Repo</name>
+      <url>file:///opt/wildfly/repositories/kie/global</url>
+    </repository>
+  </repositories>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.kie</groupId>
+        <artifactId>kie-maven-plugin</artifactId>
+        <version>6.5.0.Final</version>
+        <extensions>true</extensions>
+      </plugin>
+    </plugins>
+  </build>
+</project>
